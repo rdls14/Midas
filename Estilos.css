@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 20px;
+    font-family: Lucida Sans Regular; 
+    font-weight: bold;
+}
+h2 {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+header, section, footer, aside, article, nav hgroup{
+    display: block;
+    margin: 20px auto;
+    
+}
+body{
+    text-align: center;
+    background-image: url("Imagenes/Aviso1.jpg");
+    background-position: left;
+}
+.agrupar{
+   
+    width: 1000px;
+    border: 1px solid black;
+    margin: 20px auto;
+   
+  }
+
+  .cabecera{
+      font-style: italic;
+      margin: 20px auto;
+      background: white;
+      
+     
+  }
+  .cabecera h1{
+      text-align: left;
+      font-size: 80px;
+      display: inline-block;
+      background: white;
+  }
+
+  .menu{
+      background:#00cec9;
+      padding: 5px 15px;
+      text-align: left;
+      
+  }
+
+  .menu li{
+      list-style: none;
+      padding: 5px;
+      font: bold 15px verdana;
+      display: inline-block;
+
+  }
+  .seccion{
+      margin: 20px;
+      width: 600px;
+      float: left;
+  }
+
+  article{
+      background:#bbffff;
+      border: 1px solid #999;
+      padding: 30px;
+      margin-bottom: 25px;
+  }
+
+  time{
+      color: darkgray;
+  }
+  
+ 
+
+  .columna{
+      width: 200px;
+      float: left;
+      margin:200px 50px;
+      
+  }
+
+  .columna blockquote{
+      border: 1px solid black;
+      padding: 10px;
+      background: honeydew;
+      margin-bottom: 10px;
+  }
+  .pie{
+      clear: both;
+      padding: 20px;
+      background: #bbffff;
+  }
+
+  img{
+      width: 150px;
+      display: inline-block;
+      text-align: left;
+      
+  }
+
+  .Seccion2{
+      text-align: left;
+      padding: 20px;
+      font-size: 20px;
+      font-family: l;
+      
+  }
+
+  .Sub2{
+      background: #0a6fd3;
+      font-size: 40px;
+      border: 1px solid;
+      margin: 15px;
+  }
+
+  .sec2{
+      padding: 45px;
+     
+  }
+
+  .Sub3{
+    background: #0a6fd3;
+    font-size: 40px;
+    border: 1px solid;
+    margin: 15px;
+    text-align: center;
+    
+  }
+
+  .Sub4{
+    background: #0a6fd3;
+    font-size: 40px;
+    border: 1px solid;
+    margin: 15px;
+  }
+  
+  .Parra{
+      width: 800px;
+      padding: 10px;
+      border: 1 solid black;
+      text-align: justify;
+      margin: 50px;
+      font-size: 25px;
+  }
+
+  .pie2{
+    width: 400px;
+    clear: both;
+    padding: 20px;
+    background: #bbffff;
+    font-size: 20px;
+    font-family: Cambria;
+  }
